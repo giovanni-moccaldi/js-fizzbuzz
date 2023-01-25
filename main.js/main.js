@@ -7,13 +7,13 @@ for (let i = 1; i < 100; i++) {
 
     if (i % 3 == 0) { //poi stampa  i multipli di 3 stampi in console "Fizz
         console.log(i);
-        listtowrite.innerHTML += "Fizz";
+        listitem.innerHTML = "Fizz";
         listitem.classList.add("red");
         listtowrite.append(listitem);
     }
     else if (i % 5 == 0) { // " al posto del numero e per i multipli di 5 stampi "Buzz".
         console.log(i)
-        listtowrite.innerHTML += "Buzz";
+        listitem.innerHTML = "Buzz" + i;
 
         listitem.classList.add("blu");
         listtowrite.append(listitem);
@@ -22,7 +22,7 @@ for (let i = 1; i < 100; i++) {
 
     else if (i % 5 % 3 == 0) { // poi per i numeri che sono sia multipli di 3 che di 5 stampi in console "FizzBuzz
         console.log(i)
-        listtowrite.innerHTML += "fizz99uzz";
+        listitem.innerHTML = "fizz99uzz";
 
         listitem.classList.add("green");
         listtowrite.append(listitem);
