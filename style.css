@@ -1,0 +1,40 @@
+.red {
+    height: 100px;
+    width: 100px;
+    background-color: red;
+
+}
+
+
+.blu {
+    height: 100px;
+    width: 100px;
+    background-color: rgb(72, 18, 220);
+
+}
+
+.green {
+    height: 100px;
+    width: 100px;
+    background-color: rgb(68, 203, 44);
+
+}
+
+.grey {
+    height: 100px;
+    width: 100px;
+    background-color: rgb(92, 91, 94);
+
+}
+
+#list {
+
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 1000px;
+    margin: auto;
+    text-align: center;
+    list-style-type: none;
+    margin: auto;
+
+}
