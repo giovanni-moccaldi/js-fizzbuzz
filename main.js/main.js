@@ -30,7 +30,7 @@ for (let i = 1; i < 100; i++) {
 
     }
     else {
-        listtowrite.innerHTML += i;
+        listitem.innerHTML += i;
         listitem.classList.add("grey");
         listtowrite.append(listitem);
 
