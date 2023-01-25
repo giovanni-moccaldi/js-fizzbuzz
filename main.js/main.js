@@ -13,7 +13,7 @@ for (let i = 1; i < 100; i++) {
     }
     else if (i % 5 == 0) { // " al posto del numero e per i multipli di 5 stampi "Buzz".
         console.log(i)
-        listitem.innerHTML = "Buzz" + i;
+        listitem.innerHTML = "Buzz";
 
         listitem.classList.add("blu");
         listtowrite.append(listitem);
@@ -22,7 +22,7 @@ for (let i = 1; i < 100; i++) {
 
     else if (i % 5 % 3 == 0) { // poi per i numeri che sono sia multipli di 3 che di 5 stampi in console "FizzBuzz
         console.log(i)
-        listitem.innerHTML = "fizz99uzz";
+        listitem.innerHTML = "fizzBuzz";
 
         listitem.classList.add("green");
         listtowrite.append(listitem);

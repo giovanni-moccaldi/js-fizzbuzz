@@ -3,7 +3,13 @@
     width: 100px;
     background-color: red;
     margin: 10px;
+    line-height: 100px;
 
+}
+
+.blue {
+    background-color: rgb(255, 128, 0);
+    margin: 0, auto;
 }
 
 
@@ -12,6 +18,7 @@
     width: 100px;
     background-color: rgb(72, 18, 220);
     margin: 10px;
+    line-height: 100px;
 
 }
 
@@ -20,6 +27,7 @@
     width: 100px;
     background-color: rgb(68, 203, 44);
     margin: 10px;
+    line-height: 100px;
 
 }
 
@@ -28,6 +36,7 @@
     width: 100px;
     background-color: rgb(92, 91, 94);
     margin: 10px;
+    line-height: 100px;
 }
 
 #list {
